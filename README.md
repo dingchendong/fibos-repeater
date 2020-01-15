@@ -1,4 +1,4 @@
-#fibos-repeater 模块
+#fibos-repeater模块
 
 ## 介绍
 
