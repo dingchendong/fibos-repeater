@@ -1,10 +1,10 @@
-#fibos-repeater模块
+#fibos-repeater
 
-## 介绍
+## Introduction
 
-repeater 模块，该模块用以处理对一组api地址进行负载均衡和健康检查。
+This is a fibjs ServerLoadBalancer module
 
-## 使用
+An example:
 
 ```javascript
 ...
@@ -25,9 +25,8 @@ var httpServer = new http.Server(8081, [
 ...
 ```
 
-## 注意事项
+## Precautions
 
-进行负载均衡和健康检查的urls必须有`/health`路由，响应内容为true，类型为boolean或string。
+URLs for ServerLoadBalancer must have `/ health` routes, the response content is true, and the type is boolean or string.
 
-
-[示例代码](./examples/index.js)
+[example code](./examples/index.js)
